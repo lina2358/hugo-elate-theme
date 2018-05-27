@@ -15,6 +15,7 @@ theme = "hugo-elate-theme"
   # Navigation
   [params.navigation]
     brand = "Elate"
+    status = "alpha"
     home = "Home"
     work = "Work"
     testimonials = "Testimonials"
