@@ -8,8 +8,8 @@
 					<div class="fh5co-text">
 						<i class="fh5co-intro-icon {{ .icon }}"></i>
 						<h2>{{ .title }}</h2>
-						<p>{{ .description }}</p>
-						<p><a href="{{ .url }}" class="btn btn-primary">{{ .button}}</a></p>
+						<p>{{ .description | markdownify }}</p>
+						{{ if .button }}<p><a href="{{ .url }}" class="btn btn-primary">{{ .button}}</a></p>{{ end }}
 					</div>
 				</div>
 				{{ end }}
