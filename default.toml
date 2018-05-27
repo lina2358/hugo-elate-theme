@@ -1,0 +1,54 @@
+# This file should be included for company wide default.
+# Please use `hugo --config themes/elate/default.toml,config.toml`
+# Please override individual values only where needed.
+[params]
+
+  #custom_css = ["css/custom1.css", "css/custom2.css"]
+
+  # Meta
+  author = "XOE Solutions"
+  description = ""
+  email = "info@xoe.solutions"
+
+  # Navigation
+  [params.navigation]
+    brand = "XOE Solutions"
+    status = "alpha"
+    intro = "<i class='icon-home'></i>Install"
+    work = "<i class='icon-camera'></i>Screenshots"
+    testimonials = "<i class='icon-bubbles'></i>Testimonials"
+    services = "<i class='icon-star'></i>Features"
+    about = "<i class='icon-bulb'></i>Other projects"
+    contact = "<i class='icon-envelope'></i> Contact"
+
+  # Contact section
+  [params.contact]
+    enable = true
+    map = false
+    form = "Leave us a message"
+    title = "Contact us!"
+    description = "Are you missing features? Would you like consulting, training or other services? Contact us at [info@xoe.solutions](mailto:info@camptocamp.com?subject=Terraboard)!"
+
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "Bogotá, Colombia"],
+        ["icon-phone", "+57 (315) 304 13 68"],
+        ["icon-envelope", "info@xoe.solutions"],
+        ["icon-globe", '<a href="https://xoe.solutions/" target="_blank">https://xoe.solutions</a>']
+      ]
+
+    name = "Name"
+    email = "Email"
+    phone = "Phone"
+    message = "Message"
+    button = "Send message"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = '[![XOE Solutions](images/xoe.svg)](https://xoe.solutions)'
+    links = [
+        ["icon-globe", "https://xoe.solutions"],
+        ["icon-twitter", "https://twitter.com/XOE_Solutions"],
+        ["icon-github", "https://github.com/xoes"]
+      ]
