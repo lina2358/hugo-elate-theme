@@ -1266,10 +1266,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #431E75;
+  background: #FFE100;
 }
 .btn:hover, .btn:active, .btn:focus {
-  background: #393e46 !important;
+  background: #FFE100 !important;
   color: #fff;
   outline: none !important;
 }
