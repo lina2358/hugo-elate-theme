@@ -4,7 +4,7 @@ Setup for Xoe Solutions project sites
 
 ```shell
 $ hugo new site hugo
-$ git submodule add git@github.com:xoes/hugo-elate-theme.git hugo/themes/elate
+$ git submodule add git@github.com:xoe-labs/hugo-elate-theme.git hugo/themes/elate
 $ echo 'theme = "elate"' >> hugo/config.toml 
 $ touch hugo/content/.placeholder
 $ git add hugo
