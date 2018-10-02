@@ -37,10 +37,12 @@
     <meta name="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
     <meta name="og:url" content="{{ .Permalink }}">
     <meta name="og:image" content="{{ .Site.BaseURL }}images/{{ .Site.Params.sidebar.avatar }}">
+    <meta name="og:description" content="{{ .Site.Params.description }}" />
     <meta name="twitter:title" content="{{ .Site.Title }}" />
     <meta name="twitter:url" content="{{ .Permalink }}" />
+    <meta name="twitter:description" content="{{ .Site.Params.description }}" />
     <meta name="twitter:image" content="{{ .Site.BaseURL }}images/{{ .Site.Params.sidebar.avatar }}" />
-    <meta name="twitter:card" content="" />
+    <meta name="twitter:card" content="summary" />
     {{ end }}
 <!--     
     <meta property="og:title" content=""/>
