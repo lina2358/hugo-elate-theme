@@ -1416,11 +1416,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 pre code {
-    text-align: left;
-    background-color: #333333;
-    color: white;
+    text-align: center;
+    background-color: white;
+    color: #333333;
     display: block;
-    padding: 10px;
+    padding: 100px;
     font-size: 15px;
 }
 

@@ -18,8 +18,7 @@
 			<div class="row watch-video text-center to-animate">
 				<!-- <span>{{ with .Site.Params.intro.video }}{{ . }}{{ end }}</span> -->
 				<span>{{.Site.Params.intro.video.title | markdownify }}</span>
-
-				<a href="{{ .Site.Params.intro.video.url }}" class="popup-vimeo btn-video"><i class="{{ .Site.Params.intro.video.icon | markdownify }}"></i></a>
+				<script id="{{ .Site.Params.intro.video.id }}" src="{{ .Site.Params.intro.video.url }}" async data-speed="4" data-theme="monokai"></script>
 			</div>
 			{{ end }}
 		</div>
